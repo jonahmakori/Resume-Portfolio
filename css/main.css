@@ -435,7 +435,7 @@ body {
   clear: both;
 }
 
-.bg-fixed {
+/* .bg-fixed {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -443,7 +443,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+} */
 
 .clearfix:after {
   content: ".";
@@ -742,6 +742,7 @@ body {
 
 .sny-icon-content {
   text-align: center;
+  background-size: inherit; 
 }
 
 .sny-icon-content h4 {
